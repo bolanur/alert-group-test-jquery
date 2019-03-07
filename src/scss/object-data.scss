@@ -1,0 +1,9 @@
+@import "vars";
+.object{
+  display: inline-block;
+  margin-right: 20px;
+  &_header{
+    color:$textgray;
+  }
+}
+

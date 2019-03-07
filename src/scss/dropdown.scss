@@ -1,0 +1,44 @@
+.dropdown {
+  &__header {
+    width: 200px;
+    cursor: pointer;
+    line-height: 50px;
+    padding-right: 50px;
+    position: relative;
+    text-overflow: ellipsis;
+    span.fa {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: opacity .3s;
+      &.fa-angle-up {
+        opacity: 0;
+      }
+    }
+    &.is-active {
+      span.fa {
+        &.fa-angle-up {
+          opacity: 1;
+        }
+        &.fa-angle-down {
+          opacity: 0;
+        }
+      }
+      + .dropdown__content {
+        height: auto;
+        opacity: 1;
+        visibility: visible;
+        overflow: auto;
+      }
+    }
+  }
+  &__content {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 15px 0px;
+    transition: opacity .3s;
+    visibility: hidden;
+  }
+}
+

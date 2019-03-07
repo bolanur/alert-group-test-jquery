@@ -1,0 +1,30 @@
+@import "vars";
+.contractor_wrapper {
+  display: inline-block;
+  width: 100%;
+  min-width: 260px;
+  max-width: 600px;
+}
+
+.text_field {
+  background: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  border: rgba(0, 0, 0, .3) 2px solid;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 10px;
+
+  &_wrapper {
+    width: 40%;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+  }
+
+  &_error {
+    margin-top: 0;
+    color: $error;
+    font-size: 14px;
+  }
+}
+

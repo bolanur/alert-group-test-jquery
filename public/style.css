@@ -1,0 +1,157 @@
+
+.contractor_wrapper {
+  display: inline-block;
+  width: 100%;
+  min-width: 260px;
+  max-width: 600px; }
+
+.text_field {
+  background: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  border: rgba(0, 0, 0, 0.3) 2px solid;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 10px; }
+  .text_field_wrapper {
+    width: 40%;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top; }
+  .text_field_error {
+    margin-top: 0;
+    color: #dc3545;
+    font-size: 14px; }
+
+.dropdown__header {
+  width: 200px;
+  cursor: pointer;
+  line-height: 50px;
+  padding-right: 50px;
+  position: relative;
+  text-overflow: ellipsis; }
+  .dropdown__header span.fa {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: opacity .3s; }
+    .dropdown__header span.fa.fa-angle-up {
+      opacity: 0; }
+  .dropdown__header.is-active span.fa.fa-angle-up {
+    opacity: 1; }
+  .dropdown__header.is-active span.fa.fa-angle-down {
+    opacity: 0; }
+  .dropdown__header.is-active + .dropdown__content {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+    overflow: auto; }
+
+.dropdown__content {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 15px 0px;
+  transition: opacity .3s;
+  visibility: hidden; }
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  margin-top: 30px;
+  display: block;
+  width: 100%; }
+
+h1 {
+  text-align: center; }
+
+.form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 300px;
+  width: 40%;
+  box-sizing: border-box;
+  padding: 40px;
+  border-radius: 5px;
+  background: RGBA(255, 255, 255, 1);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.45); }
+  .form_header {
+    font-size: 20px; }
+
+#contractors-list {
+  display: inline-block;
+  width: 80%;
+  min-width: 260px;
+  max-width: 600px; }
+
+.button {
+  vertical-align: top;
+  height: 2.4em;
+  min-width: 2.4em;
+  border-radius: 3px;
+  border: rgba(0, 0, 0, 0.5) 0px solid;
+  box-sizing: border-box;
+  text-align: center;
+  background: #90c843;
+  color: #FFF;
+  transition: background .4s;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  line-height: 2.5em; }
+  .button_wrapper {
+    width: 100%;
+    height: auto;
+    text-align: right; }
+    .button_wrapper .button {
+      width: 10em;
+      margin-right: 2.6em;
+      margin-bottom: 20px; }
+  .button:hover {
+    background: #80b438; }
+
+.selector {
+  background: rgba(255, 255, 255, 0.4);
+  width: 40%;
+  height: 40px;
+  border: rgba(0, 0, 0, 0.3) 2px solid;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 3px;
+  padding: 10px; }
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 15px;
+  width: 100%; }
+
+th {
+  background-color: #c9c9c9;
+  text-align: left;
+  padding: .5em 0; }
+  th:first-child {
+    border-radius: 5px 0 0 0;
+    padding: 0em .5em; }
+  th:last-child {
+    border-radius: 0 5px 0 0;
+    padding-right: .5em; }
+
+.table_header {
+  color: #888888; }
+
+td {
+  text-align: left;
+  padding-right: 40px; }
+
+.top_index {
+  vertical-align: super;
+  font-size: 12px; }
+
+.object {
+  display: inline-block;
+  margin-right: 20px; }
+  .object_header {
+    color: #888888; }
+

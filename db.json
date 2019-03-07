@@ -1,0 +1,49 @@
+{
+  "formdata": [
+    {
+      "contractors[0][0][id]": "0",
+      "contractors[0][0][name]": "",
+      "contractors[0][0][phone]": "",
+      "contractors[1][0][name]": "Игорь",
+      "contractors[1][0][id]": "0",
+      "contractors[1][0][phone]": "89004583346",
+      "contractors[1][1][name]": "Анна",
+      "contractors[1][1][id]": "1",
+      "contractors[1][1][phone]": "89440365837",
+      "contractors[1][2][name]": "Игорь",
+      "contractors[1][2][id]": "2",
+      "contractors[1][2][phone]": "89365756180",
+      "contractors[1][3][name]": "Даша",
+      "contractors[1][3][id]": "3",
+      "contractors[1][3][phone]": "89263036788",
+      "objectData[block]": "",
+      "objectData[appartament]": "",
+      "objectData[constructionAxis]": "",
+      "id": 1
+    },
+    {
+      "contractors[0][0][id]": "0",
+      "contractors[0][0][name]": "",
+      "contractors[0][0][phone]": "",
+      "contractors[1][0][name]": "Анна",
+      "contractors[1][0][id]": "0",
+      "contractors[1][0][phone]": "89711751115",
+      "contractors[1][1][name]": "Вася",
+      "contractors[1][1][id]": "1",
+      "contractors[1][1][phone]": "89511768806",
+      "contractors[1][2][name]": "Петя",
+      "contractors[1][2][id]": "2",
+      "contractors[1][2][phone]": "89587700411",
+      "contractors[1][3][name]": "Саша",
+      "contractors[1][3][id]": "3",
+      "contractors[1][3][phone]": "89236350270",
+      "contractors[1][4][name]": "Игорь",
+      "contractors[1][4][id]": "4",
+      "contractors[1][4][phone]": "89306084236",
+      "objectData[block]": "",
+      "objectData[appartament]": "",
+      "objectData[constructionAxis]": "",
+      "id": 2
+    }
+  ]
+}

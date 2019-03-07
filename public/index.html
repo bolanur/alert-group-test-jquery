@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<section id="app">
+	<h1>Стороны и объект договора</h1>
+	<form class="form">
+		<p class="form_header">Участник договора</p>
+		<div id="contractors-list"></div>
+		<!--contractors-->
+		<div class="button" id="addContractor">+</div>
+		<p class="form_header">Вид собственности</p>
+		<select class="selector">
+			<option value="individual">Частная</option>
+			<option value="communal">Общественная</option>
+			<option value="corporate">Корпоративная</option>
+		</select>
+		<div class="info">
+		
+		</div>
+		<div class="dropdown">
+			<div class="dropdown__header" >
+				<span class="table_header">Площадь</span>...60м<span class="top_index">2</span>
+				<span class="fa fa-angle-down" aria-hidden="true">⏷</span>
+				<span class="fa fa-angle-up" aria-hidden="true">⏶</span>
+			</div>
+			<div class="dropdown__content">
+				<table>
+					<tr>
+						<th>Жилая</th>
+						<th>Нежилая</th>
+						<th>Площадь с пониж. кооф</th>
+					</tr>
+
+				</table>
+			</div>
+		</div>
+		<div class="button_wrapper">
+			<button class="button" id = "send" type="button" >Send</button>
+			<button class="button" id = "load" type="button" >Load</button>
+		</div>
+	</form>
+</section>
+<script src="js/global.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
